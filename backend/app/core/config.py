@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     OPENAI_API_KEY: str
     NEXT_PUBLIC_API_URL: str
 
-    model_config = SettingsConfigDict(env_file=".env")
+    model_config = SettingsConfigDict(env_file=(".env", "../.env"))
 
 
 settings = Settings()
