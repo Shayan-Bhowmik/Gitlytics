@@ -4,3 +4,5 @@ sqlalchemy[asyncio]==2.0.51
 asyncpg==0.31.0
 alembic==1.18.4
 pydantic-settings==2.14.2
+httpx==0.28.1
+python-jose[cryptography]==3.5.0
